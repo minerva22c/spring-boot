@@ -13,6 +13,7 @@
   
   git push origin master                                               =>commit 된 대상을 원격 저장소에 저장
   
+  
 
 2. (서버)source download
 
@@ -23,9 +24,11 @@
   git reset -- hard HEAD^ && git pull : git 코드 강제로 모두 받아오기
 
 
+
 3. 빌드
 
   ./gradlew clean build
+
 
 
 4. api 실행
@@ -33,10 +36,12 @@
   java -jar build/libs/spring-boot-0.0.1-SNAPSHOT.jar
 
 
+
 5. (h2)테스트 테이터 입력
 
   http://자신의EC2주소:8080/h2-console/
 
+
 6. API 실행
 
-   curl -i -X GET "http://자신의EC2주소:8080/books/1/"
+　　curl -i -X GET "http://자신의EC2주소:8080/books/1/"
