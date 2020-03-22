@@ -2,6 +2,8 @@
 
 1. (로컬)source upload
 
+　　git init                                     =>  .git 디렉토리생성(최초 1회만)
+
 　　git add .                                     => 현재 디렉토리의 모든 파일을 git으로 add (stage에 임시반영)
   
 　　git status                                    => git에 반영하려고 하는 파일이 모두 포함되었는지 확인
@@ -9,7 +11,7 @@
                                                          
 　　git commit -m "first commit"                                         => add된 대상을 로컬 저장소에 저장. -m 은 메시지 지정
   
-　　git remote add origin https://github.com/minerva22c/spring-boot.git  => 원격저장소를 origin으로 지정 (최초에 한번 만)
+　　git remote add origin https://github.com/minerva22c/spring-boot.git  => 원격저장소를 origin으로 지정 (최초에 1회 만)
   
 　　git push origin master                                               =>commit 된 대상을 원격 저장소에 저장
   
