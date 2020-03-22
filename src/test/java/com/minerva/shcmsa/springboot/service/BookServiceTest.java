@@ -22,7 +22,7 @@ public class BookServiceTest {
 	public void testFindById() {
 		Long id = 1L;
 		bookService.findById(id)
-			.orElseThrow( () -> new RuntimeException("Not Found") );
+			.orElseThrow( () -> new RuntimeException("Not Found~~") );
 		
 	}
 }
